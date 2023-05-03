@@ -1,0 +1,31 @@
+.mainLayout {
+  font-family: Martel Sans, sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  overflow-x: hidden;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f3f4f6;
+}
+
+.mainContent {
+  flex-grow: 1;
+}
+
+.footer {
+  /* Add desired styles for your footer here */
+  width: 100%;
+}
+
+.container {
+  max-width: 1400px; /* Adjust this value based on your design requirements */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}

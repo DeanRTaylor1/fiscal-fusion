@@ -1,0 +1,13 @@
+.waveDivider {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  width: 100%;
+  max-width: 1400px;
+  overflow: hidden;
+  transform: translateX(-50%);
+}
+
+.waveDivider svg {
+  transform: scaleY(-1);
+}
