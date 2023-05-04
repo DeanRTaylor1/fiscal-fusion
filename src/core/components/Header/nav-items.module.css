@@ -1,0 +1,23 @@
+.navItem {
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+  text-underline-offset: 4px;
+  transition: all 0.3s ease-in-out;
+}
+
+.navItem:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .navItem {
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    height: 3rem;
+    background-color: #f6f9fb;
+  }
+}
