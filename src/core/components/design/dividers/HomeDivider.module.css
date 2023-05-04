@@ -1,13 +1,22 @@
 .waveDivider {
   position: fixed;
   top: 0;
-  left: 50%;
-  width: 100%;
+  width: 100vw;
   max-width: 1400px;
   overflow: hidden;
-  transform: translateX(-50%);
+  margin-left: -17px;
 }
 
 .waveDivider svg {
   transform: scaleY(-1);
+  height: 300px;
+}
+
+/* Mobile screen sizes */
+@media screen and (max-width: 768px) {
+  .waveDivider svg {
+    height: 350px;
+    margin-left: 0px;
+    overflow: auto;
+  }
 }

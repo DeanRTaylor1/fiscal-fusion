@@ -3,7 +3,7 @@
   font-weight: 800;
   letter-spacing: 0.05em;
   overflow-x: hidden;
-  padding: 1rem;
+  padding: 1.05rem;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -24,8 +24,12 @@
 
 .container {
   max-width: 1400px; /* Adjust this value based on your design requirements */
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  width: 100%;
+}
+/* Mobile screen sizes */
+@media screen and (max-width: 768px) {
+  .mainLayout {
+    overflow-x: auto;
+    padding: 1.05rem;
+  }
 }

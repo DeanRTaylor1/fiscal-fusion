@@ -6,7 +6,6 @@ import NavBar from "./NavBar";
 const MainLayout: React.FC<PropsWithChildren> = ({ children }) => {
     return (
         <div className={styles.mainLayout}>
-            <HomeDivider />
             <NavBar />
             {/* <Navbar /> */}
             <main className={styles.mainContent}>
