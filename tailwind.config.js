@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     fontFamily: {
       sans: [
-        "martel-sans",
+        "Roboto",
         "Helvetica",
         "Arial",
         "sans-serif",

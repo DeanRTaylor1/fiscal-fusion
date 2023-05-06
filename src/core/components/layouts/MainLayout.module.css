@@ -1,5 +1,5 @@
 .mainLayout {
-  font-family: Martel Sans, sans-serif;
+  font-family: Roboto, sans-serif;
   font-weight: 800;
   letter-spacing: 0.05em;
   overflow-x: hidden;
@@ -7,7 +7,7 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  max-width: 1400px;
+  max-width: 100vw;
   margin-left: auto;
   margin-right: auto;
   background-color: #f3f4f6;
@@ -15,16 +15,22 @@
 
 .mainContent {
   flex-grow: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .footer {
   /* Add desired styles for your footer here */
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .container {
-  max-width: 1400px; /* Adjust this value based on your design requirements */
+  max-width: 1500px; /* Adjust this value based on your design requirements */
   width: 100%;
+  z-index: 10;
 }
 /* Mobile screen sizes */
 @media screen and (max-width: 768px) {

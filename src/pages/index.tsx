@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <Fragment>
       <HomeDivider />
-      Test
+      <div className='z-10'>Test</div>
     </Fragment>
 
   )
